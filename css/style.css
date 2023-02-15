@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+.container{
+    border: 5px solid #333;
+    width: 650px;
+    height: auto;
+    margin: 30px auto;
+    padding: 50px 30px;
+    background-color: aliceblue;
+}
+.rock{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    
+}
+.rock img{
+width: 100px;
+
+}
+
+.title, p{
+    text-align: center;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+
+}
+.user h3{
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+  
+
+}
+
+
+#result{
+    width: 60%;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom:1px solid red;
+    text-align: center;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.com{
+    border: 1px solid #333;
+    width: 100px;
+    height: 100px;;
+}
+
+.me{
+    border: 1px solid #333;
+    width: 100px;
+    height: 100px;;
+}
+
+.battle{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.sc{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../images/gaw.png);
+    background-size: 100%;
+
+}
+
+
+.btn button:hover{
+    border: 2px solid red;
+}
+
+.rs{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../images/ba.png);
+    background-size: 100%;
+
+
+
+}
+.pa{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../images/bobo.png);
+    background-size: 100%;
+  
+
+}
+.talk{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
